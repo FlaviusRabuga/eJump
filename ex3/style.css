@@ -1,0 +1,110 @@
+
+
+
+
+.header{
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 89px;
+    width: 1500px
+}
+
+.get_free_quote{
+    background-color: rgb(0,186, 233);
+    position: absolute;
+    top: -761px;
+    left: 733px;
+    height: 800px;
+    width: 438px;
+    border-radius: 15%;
+}
+
+.security {
+    background-image: url("./security.jpg");
+    position: absolute;
+    top: 23px;
+    left: 288px;
+    height: 47px;
+    width: 272px
+}
+
+.BBB{
+    background-image: url("./BBB.jpg");
+    position: absolute;
+    top: 4px;
+    right: 273px;
+    height: 75px;
+    width: 46px
+}
+
+
+
+
+
+.bg_house {
+    background-image: url("./bg_house.jpg");
+    position: absolute;
+    top: 89px;
+    left: 0px;
+    height: 640px;
+    width: 1500px
+}
+
+/* .corner1{
+    background-color: rgb(0,186, 233);
+    position: absolute;
+    top: 209px;
+    left: 286px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+} */
+
+.quote{
+    background-color: rgba(37, 191, 236, 0.7);
+    position: absolute;
+    top: 209px;
+    left: 286px;
+    height: 312px;
+    width: 522px;
+    border-radius: 58px 0px 58px 0px;
+}
+
+.neighbors{
+    position: absolute;
+    color:white;
+    top: 34px;
+    left: 37px;
+    width: 325px;
+    font-size: 30px;
+}
+
+.quote_text{
+    position: absolute;
+    color:white;
+    top: 130px;
+    left: 38px;
+    width: 453px;
+    font-size: 15px;
+}
+
+.mini_quote{
+    position: absolute;
+    background-color: rgb(37, 191, 236);
+    top: 230px;
+    left: 39px;
+    width: 212px;
+    height: 52px;
+    border-radius: 24px 0px 24px 0px;
+}
+
+.mini_quote_text{
+    position: absolute;
+    color:white;
+    top: 19px;
+    left: 27px;
+    width: 192px;
+    font-size: 12px;
+}
