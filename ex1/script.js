@@ -1,11 +1,8 @@
-
-console.log("test")
-
 const circles = document.querySelectorAll(".circle")
 const squares = document.querySelectorAll(".square")
 
+//add dragging property to circles
 circles.forEach(circle => {
-    console.log(circle);
     circle.addEventListener('dragstart', (event) => {
         console.log("dragstart");
         circle.classList.add("dragging")
@@ -16,15 +13,17 @@ circles.forEach(circle => {
     })
 })
 
+//add dropping property to squares
 squares.forEach(square => {
     square.addEventListener('dragover', (event) => {
         event.preventDefault();
     })
     square.addEventListener('drop', (event) => {
-        console.log("drop")
         const dragging = document.querySelector(".dragging")
-        if(square.style.backgroundColor == dragging.style.backgroundColor)
+        if (square.style.backgroundColor == dragging.style.backgroundColor) {
+            dragging.draggable = false
             square.appendChild(dragging)
+            dragging.classList.remove("dragging")
+        }
     })
 })
-

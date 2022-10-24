@@ -11,7 +11,6 @@ body {
     grid-template-columns: auto auto auto;
     align-items: center;
     justify-content: space-around;
-    /* border: solid black 1px; */
 }
 
 .square {
@@ -24,10 +23,9 @@ body {
     height: 100px;
     border-radius: 50%;
     border: solid black 2px;
-    cursor: move;
 }
 
 .circle.dragging {
     opacity: 0.1;
-    /* //adsaad */
+    cursor: move;
 }
