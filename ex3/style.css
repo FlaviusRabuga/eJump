@@ -1,6 +1,9 @@
 
-
-
+@font-face {
+    font-family: 'maven-pro';
+    src: URL("./MavenPro-Regular.ttf") format('truetype');
+  }
+/* header area */
 
 .header{
     background-color: white;
@@ -42,7 +45,7 @@
 
 
 
-
+/* houses area */
 .bg_house {
     background-image: url("./bg_house.jpg");
     position: absolute;
@@ -51,16 +54,6 @@
     height: 640px;
     width: 1500px
 }
-
-/* .corner1{
-    background-color: rgb(0,186, 233);
-    position: absolute;
-    top: 209px;
-    left: 286px;
-    height: 116px;
-    width: 116px;
-    border-radius: 50%;
-} */
 
 .quote{
     background-color: rgba(37, 191, 236, 0.7);
@@ -75,6 +68,8 @@
 .neighbors{
     position: absolute;
     color:white;
+    font-family: maven-pro;
+    font-weight: bold;
     top: 34px;
     left: 37px;
     width: 325px;
@@ -87,7 +82,9 @@
     top: 130px;
     left: 38px;
     width: 453px;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: 300;
 }
 
 .mini_quote{
@@ -103,8 +100,226 @@
 .mini_quote_text{
     position: absolute;
     color:white;
-    top: 19px;
+    font-family: maven-pro;
+    font-weight: bold;
+    top: 16px;
     left: 27px;
-    width: 192px;
+    width: 166px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+
+/* grey area */
+.grey_panel{
+    position: absolute;
+    top: 729px;
+    left: 0px;
+    background-color: rgb(146, 146, 146);
+    height: 445px;
+    width: 1500px;
+}
+.settings_circle{
+    position: absolute;
+    top: -50px;
+    left: 374px;
+    background-color: rgb(64, 64, 64);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.phone_circle{
+    position: absolute;
+    top: -50px;
+    left: 722px;
+    background-color: rgb(64, 64, 64);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.paper_circle{
+    position: absolute;
+    top: -50px;
+    left: 1059px;
+    background-color: rgb(64, 64, 64);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.mini_settings{
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    background-image: url("./mini_settings.jpg");
+    height: 44px;
+    width: 44px;
+}
+.mini_phone{
+    position: absolute;
+    top: 23px;
+    left: 30px;
+    background-image: url("./mini_phone.jpg");
+    height: 45px;
+    width: 31px;
+}
+.mini_paper{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-image: url("./mini_paper.jpg");
+    height: 40px;
+    width: 40px;
+}
+
+.blue_titles {
+    position: absolute;
+    color: white;
+    top: 57px;
+    left: 0px;
+    width: 1500px;
+    height: 32px;
+    font-size: 20px;
+}
+.equipment{
+    position: absolute;
+    color: rgb(37, 191, 236);
+    top: 0px;
+    left: 315px;
+    width: 212px;
+    height: 32px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: bold;
+}
+.system{
+    position: absolute;
+    color: rgb(37, 191, 236);
+    top: 0px;
+    left: 628px;
+    width: 267px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    font-family: maven-pro;
+    font-weight: bold;
+}
+.save{
+    position: absolute;
+    color: rgb(37, 191, 236);
+    top: 0px;
+    left: 996px;
+    width: 218px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    font-family: maven-pro;
+    font-weight: bold;
+}
+.equipment_text{
+    position: absolute;
+    color: rgb(132, 132, 132);
+    top: 53px;
+    left: 287px;
+    width: 268px;
+    height: 32px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: 300;
+    text-align: center;
+}
+.system_text{
+    position: absolute;
+    color: rgb(132, 132, 132);
+    top: 53px;
+    left: 629px;
+    width: 268px;
+    height: 32px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: 300;
+    text-align: center;
+}
+.save_text{
+    position: absolute;
+    color: rgb(132, 132, 132);
+    top: 53px;
+    left: 967px;
+    width: 268px;
+    height: 32px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: 300;
+    text-align: center;
+}
+.read_more1, .read_more2, .read_more3{
+    position: absolute;
+    background-color: rgb(37, 191, 236);
+    color: white;
+    top: 166px;
+    left: 349px;
+    width: 133px;
+    height: 32px;
+    font-size: 10px;
+    font-family: maven-pro;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 32px 0px 32px 0px;
+}
+.read_more2{
+    left: 696px;
+}
+.read_more3{
+    left: 1035px;
+}
+.read_more_text{
+    position: absolute;
+    color: white;
+    top: 9px;
+    left: 20px;
+    width: 90px;
+    height: 18px;
     font-size: 12px;
+    font-family: maven-pro;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.about_title{
+    display: flex;
+    position: absolute;
+    color: rgb(132, 132, 132);
+    top: 227px;
+    left: 286px;
+    width: 940px;
+    height: 32px;
+    font-size: 20px;
+    font-family: maven-pro;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.hr{
+    border-top: solid white 1px;
+    border-left: solid white 0px;
+    border-right: solid white 0px;
+    border-bottom: solid white 0px;
+}
+.about_text1, .about_text2{
+    position: absolute;
+    color: rgb(132, 132, 132);
+    top: 264px;
+    left: 286px;
+    width: 940px;
+    height: 180px;
+    font-size: 16px;
+    font-family: maven-pro;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+}
+.about_text2{
+    top: 370px;
 }
