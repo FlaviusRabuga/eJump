@@ -323,3 +323,36 @@
 .about_text2{
     top: 370px;
 }
+
+/* white area */
+.white_area{
+    position: absolute;
+    top: 1174px;
+    left: 0px;
+    background-color: red;
+    height: 493px;
+    width: 1500px;
+}
+.blue_label{
+    position: absolute;
+    color: white;
+    background-color: rgb(37, 191, 236);
+    top: 0px;
+    left: 0px;
+    width: 550px;
+    height: 58px;
+    border-radius: 0px 0px 58px 0px;
+}
+.label_text{
+    position: absolute;
+    color: white;
+    top: 14px;
+    left: 290px;
+    width: 280px;
+    height: 20px;
+    font-size: 24px;
+    font-family: maven-pro;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+}
