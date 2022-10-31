@@ -1,11 +1,11 @@
-
 @font-face {
     font-family: 'maven-pro';
     src: URL("./MavenPro-Regular.ttf") format('truetype');
-  }
+}
+
 /* header area */
 
-.header{
+.header {
     background-color: white;
     position: absolute;
     top: 0px;
@@ -14,14 +14,47 @@
     width: 1500px
 }
 
-.get_free_quote{
-    background-color: rgb(0,186, 233);
+.get_free_quote {
+    background-color: rgb(0, 186, 233);
     position: absolute;
     top: -761px;
     left: 733px;
     height: 800px;
     width: 438px;
     border-radius: 15%;
+}
+
+.phone_number{
+    position: absolute;
+    bottom:15px;
+    left: 70px;
+    height: 14px;
+    width: 128px;
+    color: rgb(115, 115, 115);
+    font-family: 'maven-pro';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.phone_image{
+    position: absolute;
+    bottom: 12px;
+    left: 46px;
+    height: 17px;
+    width: 17px;
+    background-image: url("./phone_image_1.jpg");
+}
+
+.get_text{
+    position: absolute;
+    bottom:15px;
+    right: 60px;
+    height: 14px;
+    width: 150px;
+    color: white;
+    font-family: 'maven-pro';
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .security {
@@ -33,7 +66,7 @@
     width: 272px
 }
 
-.BBB{
+.BBB {
     background-image: url("./BBB.jpg");
     position: absolute;
     top: 4px;
@@ -42,7 +75,33 @@
     width: 46px
 }
 
-
+.options {
+    position: absolute;
+    top: 62px;
+    left: 680px;
+    height: 11px;
+    width: 491px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options_text{
+    font-family: 'maven-pro';
+    font-size: 12px;
+    color: rgb(132, 132, 132);
+    font-weight: bold;
+}
+.home_text{
+    position: absolute;
+    top: 62px;
+    left: 608px;
+    height: 11px;
+    width: 44px;
+    font-family: 'maven-pro';
+    font-size: 12px;
+    color: rgb(37, 191, 236);
+    font-weight: bold;
+}
 
 
 /* houses area */
@@ -55,7 +114,7 @@
     width: 1500px
 }
 
-.quote{
+.quote {
     background-color: rgba(37, 191, 236, 0.7);
     position: absolute;
     top: 209px;
@@ -65,9 +124,9 @@
     border-radius: 58px 0px 58px 0px;
 }
 
-.neighbors{
+.neighbors {
     position: absolute;
-    color:white;
+    color: white;
     font-family: maven-pro;
     font-weight: bold;
     top: 34px;
@@ -76,9 +135,9 @@
     font-size: 30px;
 }
 
-.quote_text{
+.quote_text {
     position: absolute;
-    color:white;
+    color: white;
     top: 130px;
     left: 38px;
     width: 453px;
@@ -87,7 +146,7 @@
     font-weight: 300;
 }
 
-.mini_quote{
+.mini_quote {
     position: absolute;
     background-color: rgb(37, 191, 236);
     top: 230px;
@@ -97,9 +156,9 @@
     border-radius: 24px 0px 24px 0px;
 }
 
-.mini_quote_text{
+.mini_quote_text {
     position: absolute;
-    color:white;
+    color: white;
     font-family: maven-pro;
     font-weight: bold;
     top: 16px;
@@ -112,7 +171,7 @@
 
 
 /* grey area */
-.grey_panel{
+.grey_panel {
     position: absolute;
     top: 729px;
     left: 0px;
@@ -120,7 +179,8 @@
     height: 445px;
     width: 1500px;
 }
-.settings_circle{
+
+.settings_circle {
     position: absolute;
     top: -50px;
     left: 374px;
@@ -129,7 +189,8 @@
     width: 90px;
     border-radius: 50%;
 }
-.phone_circle{
+
+.phone_circle {
     position: absolute;
     top: -50px;
     left: 722px;
@@ -138,7 +199,8 @@
     width: 90px;
     border-radius: 50%;
 }
-.paper_circle{
+
+.paper_circle {
     position: absolute;
     top: -50px;
     left: 1059px;
@@ -147,7 +209,8 @@
     width: 90px;
     border-radius: 50%;
 }
-.mini_settings{
+
+.mini_settings {
     position: absolute;
     top: 23px;
     left: 23px;
@@ -155,7 +218,8 @@
     height: 44px;
     width: 44px;
 }
-.mini_phone{
+
+.mini_phone {
     position: absolute;
     top: 23px;
     left: 30px;
@@ -163,7 +227,8 @@
     height: 45px;
     width: 31px;
 }
-.mini_paper{
+
+.mini_paper {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -181,7 +246,8 @@
     height: 32px;
     font-size: 20px;
 }
-.equipment{
+
+.equipment {
     position: absolute;
     color: rgb(37, 191, 236);
     top: 0px;
@@ -192,7 +258,8 @@
     font-family: maven-pro;
     font-weight: bold;
 }
-.system{
+
+.system {
     position: absolute;
     color: rgb(37, 191, 236);
     top: 0px;
@@ -204,7 +271,8 @@
     font-family: maven-pro;
     font-weight: bold;
 }
-.save{
+
+.save {
     position: absolute;
     color: rgb(37, 191, 236);
     top: 0px;
@@ -216,7 +284,8 @@
     font-family: maven-pro;
     font-weight: bold;
 }
-.equipment_text{
+
+.equipment_text {
     position: absolute;
     color: rgb(132, 132, 132);
     top: 53px;
@@ -228,7 +297,8 @@
     font-weight: 300;
     text-align: center;
 }
-.system_text{
+
+.system_text {
     position: absolute;
     color: rgb(132, 132, 132);
     top: 53px;
@@ -240,7 +310,8 @@
     font-weight: 300;
     text-align: center;
 }
-.save_text{
+
+.save_text {
     position: absolute;
     color: rgb(132, 132, 132);
     top: 53px;
@@ -252,7 +323,10 @@
     font-weight: 300;
     text-align: center;
 }
-.read_more1, .read_more2, .read_more3{
+
+.read_more1,
+.read_more2,
+.read_more3 {
     position: absolute;
     background-color: rgb(37, 191, 236);
     color: white;
@@ -267,13 +341,16 @@
     vertical-align: middle;
     border-radius: 32px 0px 32px 0px;
 }
-.read_more2{
+
+.read_more2 {
     left: 696px;
 }
-.read_more3{
+
+.read_more3 {
     left: 1035px;
 }
-.read_more_text{
+
+.read_more_text {
     position: absolute;
     color: white;
     top: 9px;
@@ -287,7 +364,7 @@
     vertical-align: middle;
 }
 
-.about_title{
+.about_title {
     display: flex;
     position: absolute;
     color: rgb(132, 132, 132);
@@ -301,13 +378,16 @@
     text-align: center;
     vertical-align: middle;
 }
-.hr{
+
+.hr {
     border-top: solid white 1px;
     border-left: solid white 0px;
     border-right: solid white 0px;
     border-bottom: solid white 0px;
 }
-.about_text1, .about_text2{
+
+.about_text1,
+.about_text2 {
     position: absolute;
     color: rgb(132, 132, 132);
     top: 264px;
@@ -320,12 +400,13 @@
     text-align: center;
     vertical-align: middle;
 }
-.about_text2{
+
+.about_text2 {
     top: 370px;
 }
 
 /* white area */
-.white_area{
+.white_area {
     position: absolute;
     top: 1174px;
     left: 0px;
@@ -333,7 +414,8 @@
     height: 493px;
     width: 1500px;
 }
-.blue_label{
+
+.blue_label {
     position: absolute;
     color: white;
     background-color: rgb(37, 191, 236);
@@ -343,7 +425,8 @@
     height: 58px;
     border-radius: 0px 0px 58px 0px;
 }
-.label_text{
+
+.label_text {
     position: absolute;
     color: white;
     top: 14px;
@@ -356,7 +439,9 @@
     text-align: left;
     vertical-align: middle;
 }
-.testimonial1, .testimonial2{
+
+.testimonial1,
+.testimonial2 {
     position: absolute;
     background-color: rgb(247, 247, 247);
     top: 77px;
@@ -364,10 +449,12 @@
     width: 460px;
     height: 104px;
 }
-.testimonial2{
+
+.testimonial2 {
     top: 255px;
 }
-.test1_text{
+
+.test1_text {
     position: absolute;
     color: rgb(132, 132, 132);
     top: 35px;
@@ -380,7 +467,8 @@
     text-align: left;
     vertical-align: middle;
 }
-.quote_reversed{
+
+.quote_reversed {
     position: absolute;
     background-image: url("./quote_reversed.jpg");
     top: 9px;
@@ -388,7 +476,8 @@
     width: 19px;
     height: 15px;
 }
-.quote_simple{
+
+.quote_simple {
     position: absolute;
     background-image: url("./quote.jpg");
     top: 75px;
@@ -396,11 +485,176 @@
     width: 19px;
     height: 15px;
 }
-.video{
+
+.video {
     position: absolute;
-    background-color: red;
+    /* background-color: rgb(209, 64, 64); */
+    background-image: url("./video.jpg");
     top: 15px;
     left: 765px;
     width: 460px;
-    height: 309px;
+    height: 305px;
+}
+
+.video_settings {
+    position: absolute;
+    top: 278px;
+    left: 0px;
+    width: 460px;
+    height: 29px;
+    background-image: url("./video_settings.jpg");
+}
+
+.watch {
+    position: absolute;
+    top: 343px;
+    left: 766px;
+    width: 460px;
+    height: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: maven-pro;
+    color: rgb(132, 132, 132);
+}
+
+.watch_text {
+    position: absolute;
+    top: 370px;
+    left: 766px;
+    width: 460px;
+    height: 86px;
+    font-weight: 300;
+    font-size: 11px;
+    font-family: maven-pro;
+    color: rgb(132, 132, 132);
+}
+
+.alice {
+    position: absolute;
+    top: 180px;
+    left: 246px;
+    width: 500px;
+    height: 57px;
+}
+
+.alice_photo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 91px;
+    height: 57px;
+    background-image: url("./alice.jpg");
+}
+
+.alice_text {
+    position: absolute;
+    top: 28px;
+    left: 92px;
+    width: 162px;
+    height: 19px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: maven-pro;
+    color: rgb(132, 132, 132);
+}
+
+.alice_full_stars {
+    position: absolute;
+    top: 23px;
+    right: 47px;
+    width: 63px;
+    height: 17px;
+    background-image: url("./full_star.jpg");
+}
+
+.alice_empty_stars {
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    width: 42px;
+    height: 17px;
+    background-image: url("./empty_star.jpg");
+}
+
+.john {
+    position: absolute;
+    top: 370px;
+    left: 272px;
+    width: 475px;
+    height: 45px;
+}
+
+.john_photo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 56px;
+    height: 45px;
+    background-image: url("./john.jpg");
+}
+
+.john_text {
+    position: absolute;
+    top: 17px;
+    left: 65px;
+    width: 162px;
+    height: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: maven-pro;
+    color: rgb(132, 132, 132);
+}
+
+.john_full_stars {
+    position: absolute;
+    top: 23px;
+    right: 26px;
+    width: 84px;
+    height: 17px;
+    background-image: url("./full_star.jpg");
+}
+
+.john_empty_stars {
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    width: 21px;
+    height: 17px;
+    background-image: url("./empty_star.jpg");
+}
+
+.view-all {
+    position: absolute;
+    top: 420px;
+    left: 282px;
+    width: 462px;
+    height: 40px;
+}
+
+.view-all_text {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 62px;
+    height: 9px;
+    font-weight: bold;
+    font-size: 9px;
+    font-family: maven-pro;
+    color: rgb(37, 191, 236);
+}
+
+.view_button {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: maven-pro;
+    color: white;
+    background-color: rgb(37, 191, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
